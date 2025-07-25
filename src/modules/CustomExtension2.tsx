@@ -6,7 +6,7 @@ const CustomExtension2 = () => {
   return (
     <div className="w-full">
       <div className="w-full px-4 md:px-5 lg:px-8 2xl:px-56 py-40 flex flex-col lg:flex-row gap-20 lg:gap-4 items-center">
-        <div className="2xl:w-[94%] xl:w-full lg:w-full md:w-[90%] mx-auto hidden lg:block">
+        <div className="2xl:w-[94%] xl:w-full lg:w-full md:w-[90%] mx-auto ">
           <img
             src="/images/slider/slider-top.png"
             alt="slider"
@@ -14,7 +14,7 @@ const CustomExtension2 = () => {
           />
         </div>
         <div
-          className="2xl:w-full xl:w-[94%] lg:w-full flex flex-col text-center lg:text-left pl-10"
+          className="2xl:w-full xl:w-[94%] lg:w-full flex flex-col text-center lg:text-left"
           style={{
             color: Theme.Secondary.DarkGray,
           }}
@@ -30,13 +30,6 @@ const CustomExtension2 = () => {
           <div className="fit mt-16 mx-auto lg:mx-0 ">
             <Button title="Let's Go" icon={<IconArrowRightIcon width={14} />} />
           </div>
-        </div>
-        <div className="2xl:w-[94%] xl:w-full lg:w-full md:w-[90%] mx-auto lg:hidden">
-          <img
-            src="/images/slider/slider-top.png"
-            alt="slider"
-            className="w-full h-auto object-cover"
-          />
         </div>
       </div>
     </div>
